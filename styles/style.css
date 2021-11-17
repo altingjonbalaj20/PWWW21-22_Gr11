@@ -1,18 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .container {
   max-width: 1000px;
   margin: auto;
   width: 90%;
-}
-
-body {
-  background-color: #050505;
 }
 
 header {
@@ -29,7 +18,7 @@ header .header-elements {
 }
 
 header .header-elements .elements {
-  width: 290px;
+  width: 295px;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,5 +42,130 @@ header .header-elements .elements span {
 header .header-elements .elements a {
   color: #4F4F4F;
   text-decoration: none;
+  -webkit-transition: all ease-in 0.1s;
+  transition: all ease-in 0.1s;
+}
+
+header .header-elements .elements a:hover {
+  color: #fff;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 180px;
+  padding: 10px;
+  background-color: #1C1C1C;
+}
+
+header nav .logo-search {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px;
+}
+
+header nav .logo-search .logo a {
+  text-decoration: none;
+  color: #999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header nav .logo-search .logo a span {
+  -webkit-transition: all ease-in 0.5s;
+  transition: all ease-in 0.5s;
+}
+
+header nav .logo-search .logo a span:first-of-type {
+  font-size: 32px;
+  margin-bottom: 3px;
+}
+
+header nav .logo-search .logo a span:last-of-type {
+  font-size: 12px;
+}
+
+header nav .logo-search .logo a:hover span {
+  color: #ffff;
+}
+
+header nav .logo-search .search input {
+  width: 270px;
+  height: 30px;
+  background-color: #454545;
+  border: 1px solid #707070;
+  color: #ffff;
+  padding: 5px 10px;
+  outline: none;
+}
+
+header nav .menu {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+header nav .menu ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #333333;
+}
+
+header nav .menu ul li {
+  list-style: none;
+  width: 130px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+header nav .menu ul li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: #999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+header nav .menu ul li a:hover {
+  background-color: #050505;
+  color: #ffff;
 }
 /*# sourceMappingURL=style.css.map */

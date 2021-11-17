@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="../styles/style.css">
     <title>Photoart</title>
 </head>
-<body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+</style>
+<body style="background-color: #050505;">
     <header>
         <div class="header-elements container">
             <div class="elements">
@@ -20,6 +27,42 @@
                 <p><a href="#">Suspendise</a></p>
             </div>
         </div>
+        <nav>
+            <div class="logo-search container">
+                <div class="logo">
+                    <a href="./index.html">
+                        <span>PhotoArt</span>
+                        <span>Free PSD Website Template</span>
+                    </a>
+                </div>
+                <div class="search">
+                    <!-- TODO: Add a search symbol at the input, it can be like a button -->
+                    <input type="search" name="search" id="search">
+                </div>
+            </div>
+            <div class="menu container">
+                <ul>
+                    <li>
+                        <a href="#">Homepage</a>
+                    </li>
+                    <li>
+                        <a href="#">Style Demo</a>
+                    </li>
+                    <li>
+                        <a href="#">Full Width</a>
+                    </li>
+                    <li>
+                        <a href="#">Dropdown</a>
+                    </li>
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <script src="../js/ap.js"></script>
 </body>
