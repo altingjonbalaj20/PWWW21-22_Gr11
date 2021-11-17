@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    width: 90%;
+}
+
+body {
+    background-color: #050505;
+}
+// Header
+header {
+    margin-top: 10px;
+    .header-elements {
+        display: flex;
+        justify-content: end;
+        .elements {
+            width: 290px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px 20px 0 0;
+            background-color: #111111;
+            span {
+                color: #4F4F4F;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            a {
+            color: #4F4F4F;
+            text-decoration: none;
+            }
+        }
+    }
+}
