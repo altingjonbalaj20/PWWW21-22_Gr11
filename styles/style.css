@@ -360,4 +360,10 @@ main .carusel .carusel-content .carusel-body .carusel-info a {
   height: 10px;
   background-color: #111;
 }
+
+footer{
+  margin-top: 2em;
+  background-color: white;
+  padding: 2em;
+}
 /*# sourceMappingURL=style.css.map */
