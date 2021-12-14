@@ -383,12 +383,31 @@ footer{
   padding-top: 14px;
 }
 
-footer .footer-container{
-  background-color: #bbbcbb;
-  margin: 1px auto 5px;
+footer .footer-containers{
+  max-width: 1000px;
+  width: 90%;
+  background-color: #bbb;
+  margin: 1px auto 5px auto;
   padding: 30px 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-evenly;
+}
+
+/* 30 + 20 + 15 + 20 = 85% */
+.footer-containers .blog-post{
+  max-width: 30%;
+}
+
+.footer-containers .quick-links{
+  max-width: 20%;
+}
+
+.footer-containers .contact-details{
+  max-width: 15%;
+}
+
+.footer-containers .social{
+  max-width: 20%;
 }
 
 footer footer-copyright{
