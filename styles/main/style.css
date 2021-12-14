@@ -383,37 +383,86 @@ footer{
   padding-top: 14px;
 }
 
-footer .footer-containers{
+footer .footer-body{
+  background-color: #1C1C1C;
+}
+
+footer .footer-body .footer-containers{
   max-width: 1000px;
   width: 90%;
-  background-color: #bbb;
-  margin: 1px auto 5px auto;
+  margin: 1px auto 5px;
   padding: 30px 0px;
   display: flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
 }
 
 /* 30 + 20 + 15 + 20 = 85% */
 .footer-containers .blog-post{
-  max-width: 30%;
+  width: 30%;
+}
+
+.footer-containers .blog-post p em{
+  margin-top: 10px;
+  font-size: 10px;
+  color: #777;
+  display: block;
+  font-style: normal;
+}
+
+.footer-containers .blog-post .read-more{
+  display: block;
+  text-align: end;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer-containers .quick-links{
-  max-width: 20%;
+  width: 20%;
+}
+
+.quick-links .quick-link{
+  color: #fff;
+  margin-top: 17px;
+  display: block;
+  margin-bottom: 7px;
+  text-decoration: none;
+}
+
+.quick-links a:first-of-type{
+  margin-top: 0px;
 }
 
 .footer-containers .contact-details{
-  max-width: 15%;
+  width: 15%;
+}
+
+.contact-details em{
+  font-style: normal;
+  color: #777;
+}
+
+.contact-details p .email{
+  text-decoration: none;
+  color: white;
 }
 
 .footer-containers .social{
-  max-width: 20%;
+  width: 20%;
 }
 
 footer footer-copyright{
   margin: 5px auto 0px;
 }
 
+.footer-containers .footer-container{
+  color: #FFF;
+  font-size: 13px;
+}
+
+.footer-containers .footer-container .container-title{
+  font-size: 18px;
+  padding-bottom: 37px;
+}
 .carusel-info h2{
   font-size: 36px;
 }
