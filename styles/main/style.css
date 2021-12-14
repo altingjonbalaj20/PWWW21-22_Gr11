@@ -465,13 +465,26 @@ footer .footer-body .footer-containers{
   margin-right: 10px;
 }
 
-footer footer-copyright{
+footer .footer-copyright{
+  background-color: white;
   margin: 5px auto 0px;
+  height: 40px;
+  background-color: #1C1C1C;
+}
+
+footer .footer-copyright .copyright-text{
+  font-size: 12px;
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  padding-top: 14px;
+  color: #777;
 }
 
 .footer-containers .footer-container{
   color: #FFF;
   font-size: 13px;
+  margin-bottom: 5px;
 }
 
 .footer-containers .footer-container .container-title{
