@@ -450,6 +450,21 @@ footer .footer-body .footer-containers{
   width: 20%;
 }
 
+.social .social-link:first-of-type{
+  margin-top: 0px;
+}
+
+.social .social-link {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.social .social-link img{
+  width: 32px;
+  margin-right: 10px;
+}
+
 footer footer-copyright{
   margin: 5px auto 0px;
 }
