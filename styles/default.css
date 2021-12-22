@@ -258,6 +258,10 @@ footer .footer-body .footer-containers{
   width: 30%;
 }
 
+.footer-containers .blog-post p{
+  text-align: justify;
+}
+
 .footer-containers .blog-post p em{
   margin-top: 10px;
   font-size: 10px;
