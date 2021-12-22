@@ -1,3 +1,12 @@
 body{
     font-family: Georgia, Times, serif;
 }
+
+h1, h2, h3, h4, h5, h6, header, main, section, body, footer, table, img, a, div, p, pre, ul, ol,
+figure, figcaption, nav{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
