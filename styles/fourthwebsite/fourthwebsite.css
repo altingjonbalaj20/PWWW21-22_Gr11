@@ -1,0 +1,64 @@
+header{
+    margin-bottom: 20px;
+}
+
+.container .form-container{
+    background-color: #777;
+}
+
+.filter-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filter-container .filter-option .filter-name{
+    color: yellow;
+}
+
+.filter-container .filter-option{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.filter-container .filter-option .input{
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.photos-container{
+    display: inline-flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.photos-container .photo-container{
+    display: inline-flex;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+
+.photo-container figure{
+    padding: 10px;
+}
+
+.photo-container figure figcaption{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.photo-container figure img{
+    width: 240px;
+}
+
+footer{
+    margin-top: 10px;
+}
