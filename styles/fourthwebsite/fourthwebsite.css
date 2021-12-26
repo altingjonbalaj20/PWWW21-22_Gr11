@@ -14,9 +14,10 @@ header{
 }
 
 .filter-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    column-gap: 80px;
     margin-bottom: 20px;
 }
 
@@ -31,9 +32,9 @@ header{
     color: transparent;
     user-select: none;
     position:relative;
-    top: 10px;
+    top: 12px;
     left: 10px;
-    font-size: 14px;
+    font-size: 16px;
     width:max-content;
     background: transparent;
     display: inline;
@@ -56,8 +57,19 @@ header{
     color: transparent;
 }
 
-.form-container form .submit-button{
-    justify-self: center;
+.form-container form .additional-filters{
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 80px;
+}
+
+.form-container form .additional-filters .check-options{
+    
+    flex-direction: column;
+} 
+
+.form-container form .button{
     margin: auto;
     width: 260px;
     height: 50px;
@@ -70,7 +82,7 @@ header{
     border: 1px solid black;
 }
 
-.form-container form .submit-button:hover {
+.form-container form .button:hover {
     background: #050505;
     transition: all ease-in-out 0.3s;
     color: #ffff;
