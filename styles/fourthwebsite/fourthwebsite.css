@@ -57,19 +57,30 @@ header{
     color: transparent;
 }
 
-.form-container form .additional-filters{
+#filter-form .additional-filters{
     margin: auto;
+}
+
+#filter-form .additional-filters summary{
+    text-align: center;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    width: 260px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#filter-form .additional-filters table tr{
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 80px;
 }
 
-.form-container form .additional-filters .check-options{
-    
-    flex-direction: column;
-} 
-
-.form-container form .button{
+.form-container #filter-form .button{
     margin: auto;
     width: 260px;
     height: 50px;
@@ -82,7 +93,7 @@ header{
     border: 1px solid black;
 }
 
-.form-container form .button:hover {
+.form-container #filter-form .button:hover {
     background: #050505;
     transition: all ease-in-out 0.3s;
     color: #ffff;
