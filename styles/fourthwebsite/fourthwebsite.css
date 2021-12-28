@@ -55,6 +55,14 @@ details {
     display: inline;
 }
 
+.filter-container .filter-option .input {
+  background-color: #cac9c9;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
 .filter-container .filter-option .input:focus {
   outline: none;
   border: 2px #736be0 solid;
