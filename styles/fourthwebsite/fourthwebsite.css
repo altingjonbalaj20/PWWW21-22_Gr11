@@ -40,7 +40,19 @@ header{
   display: inline;
 }
 
-.filter-container .filter-option .input{
+.filter-container .filter-option .filter-name{
+    color: transparent;
+    user-select: none;
+    position:relative;
+    top: 0.55em;
+    left: 0.6em;
+    font-size: 1em;
+    width:max-content;
+    background: transparent;
+    display: inline;
+}
+
+.filter-container .filter-option .input {
   background-color: #cac9c9;
   height: 50px;
   border-radius: 10px;
@@ -48,7 +60,7 @@ header{
   border: 1px solid white;
 }
 
-.filter-container .filter-option .input:focus{
+.filter-container .filter-option .input:focus {
   outline: none;
   border: 2px #736be0 solid;
 }
