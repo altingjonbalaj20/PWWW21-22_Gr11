@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  background: url("./img/banner.png") no-repeat center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 500;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+header .search-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .search-part #search {
+  width: calc(100% - 50px);
+  height: 45px;
+  border: none;
+  border-radius: 15px 0 0 15px;
+  padding: 10px 20px;
+  outline: none;
+  font-size: 18px;
+  color: #000000;
+  font-size: 2rem;
+}
+
+header .search-part #submit {
+  width: 50px;
+  height: 45px;
+  border-radius: 0 15px 15px 0;
+  border: none;
+  cursor: pointer;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+header .search-part #submit:hover {
+  background-color: #969696;
+}
+
+header {
+  background-size: cover;
+}
+
+.ip-info {
+  position: absolute;
+  width: 90%;
+  height: 16rem;
+  padding: 2rem 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 20px 45px -8px rgba(0, 0, 0, 0.32);
+          box-shadow: 0 20px 45px -8px rgba(0, 0, 0, 0.32);
+  border-radius: 16px;
+  left: 50%;
+  top: 120px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1000;
+  margin-top: 50px;
+}
+
+.ip-info .info {
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+}
+
+.ip-info .info .text {
+  font-size: 2rem;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.ip-info .info .input-text {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.ip-info .info::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 90%;
+  width: 1px;
+  background-color: #969696;
+  opacity: 0.4;
+}
+
+#map {
+  position: relative;
+  height: calc(100vh - 200px);
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .search-part {
+    width: 70%;
+  }
+  .ip-info {
+    left: 0;
+    top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 220px;
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header .search-part {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+}
