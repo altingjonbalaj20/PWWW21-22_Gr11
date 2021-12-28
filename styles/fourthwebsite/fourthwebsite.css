@@ -31,18 +31,6 @@ details {
   height: 70px;
 }
 
-.filter-container .filter-option .filter-name {
-  color: transparent;
-  user-select: none;
-  position: relative;
-  top: 12px;
-  left: 10px;
-  font-size: 16px;
-  width: max-content;
-  background: transparent;
-  display: inline;
-}
-
 .filter-container .filter-option .filter-name{
     color: transparent;
     user-select: none;
