@@ -6,6 +6,9 @@
 
 body{
     background-color: #050505;
+    min-width:1000px;
+    width: auto !important;
+    width:1000px;        
 }
 
 header {
@@ -212,7 +215,6 @@ header nav .menu ul li a:hover {
   color: #ffff;
 }
 
-
 .container {
   max-width: 1000px;
   margin: auto;
@@ -220,7 +222,7 @@ header nav .menu ul li a:hover {
 }
 
 footer{
-  margin-top: 50px;
+  margin-top: 10px;
   background-color: #111;
 }
 
@@ -256,6 +258,10 @@ footer .footer-body .footer-containers{
 /* 30 + 20 + 15 + 20 = 85% */
 .footer-containers .blog-post{
   width: 30%;
+}
+
+.footer-containers .blog-post p{
+  text-align: justify;
 }
 
 .footer-containers .blog-post p em{
@@ -348,4 +354,5 @@ footer .footer-copyright .copyright-text{
   font-size: 18px;
   padding-bottom: 37px;
 }
+
 /*# sourceMappingURL=style.css.map */
