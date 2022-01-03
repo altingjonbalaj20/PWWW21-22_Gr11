@@ -1,7 +1,7 @@
 function onFocus(label){
     var l = document.getElementById(label);
-    l.style.color = "#736be0";
-    l.style.background = "#cac9c9"
+    l.style.color = "#5f8b86";
+    l.style.backgroundColor = "#5f5f5f";
 }
 
 function onBlur(input, label){
