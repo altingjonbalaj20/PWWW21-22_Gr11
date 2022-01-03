@@ -294,6 +294,7 @@ main .carusel .carusel-content .carusel-body .carusel-info p {
   color: #fff;
   margin-bottom: 30px;
   text-decoration: none;
+  text-align: justify;
 }
 
 main .carusel .carusel-content .carusel-body .carusel-info a {
