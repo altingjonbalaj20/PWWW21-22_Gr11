@@ -1,0 +1,30 @@
+body{
+    background-image: radial-gradient(#000 50%, #999 100%);
+}
+
+.container .form-container {
+    background-color: #5f5f5f;
+}
+
+.filter-container .filter-option .input {
+    background-color: #5f5f5f;
+    border: 1px solid white;
+}
+
+.filter-container .filter-option .input:focus {
+    border: 2px #5f8b86 solid;
+}
+
+.form-container #filter-form .button {
+    border: 1px solid black;
+    background: #999;
+}
+
+.form-container #filter-form .button:hover {
+    background: #050505;
+    color: #ffff;
+}
+
+.photos-container .photo-container {
+    background-color: yellowgreen;
+}

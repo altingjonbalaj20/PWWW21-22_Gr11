@@ -1,0 +1,140 @@
+body{
+    background-image: linear-gradient(to bottom, #ccc3c3, #000000);
+}
+
+header .header-elements .elements {
+    background-color: #396461;
+}
+
+header .header-elements .elements span {
+    color: #2b2929;
+}
+
+header .header-elements .elements a {
+    color: #000000;
+}
+
+header .header-elements .elements a:hover {
+    color: #b8b9bd;
+}
+
+header nav {
+    background-color: #396461;
+}
+
+header nav .logo-search .logo a span{
+    color: black;
+}
+
+header nav .logo-search .logo a:hover span {
+    text-shadow: 0px 0px 8px #ffffff;
+    color: black;
+}
+
+header nav .logo-search .search input {
+    background-color: #838383;
+    color: #ffff;
+    border: 1px solid #707070;
+}
+
+header nav .logo-search .search a {
+    border-left: none;
+    background-color: #838383;
+}
+
+header nav .menu ul {
+    background-color: #838383;
+}
+
+header nav .menu ul li a{
+    color: black;
+}
+
+header nav .menu ul li a:hover {
+    background-color:#474958;
+    color: #ffff;
+}
+
+footer{
+    background-color: transparent;
+}
+
+.footer-title{
+    background-color: #396461;
+}
+
+.footer-title h2{
+    color: #000;
+}
+
+footer .footer-body{
+    background-color: #53918d;
+}
+
+footer .footer-body .footer-container{
+    color: #000;
+}
+
+footer .footer-body .blog-post .read-more{
+    color: black;
+}
+
+footer .footer-body .blog-post .read-more:hover{
+    color: white;
+    transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 1s;
+    -moz-transition: ease-in-out 1s;
+    -ms-transition: ease-in-out 1s;
+    -o-transition: ease-in-out 1s;
+}
+
+footer .footer-copyright{
+    background-color: #396461;
+}
+
+footer .footer-copyright .copyright-text{
+    color: #000;
+}
+
+.footer-containers .footer-container{
+    color: #FFF;
+}
+
+.quick-links .quick-link{
+    color: #000;
+}
+
+.contact-details em{
+    color: #000;
+}
+
+.contact-details p .email, .tel{
+    color: #000;
+}
+
+.container .form-container {
+    background-color:#53918d;
+}
+
+.filter-container .filter-option .input {
+    background-color: #53918d;
+    border: 1px solid white;
+}
+
+.filter-container .filter-option .input:focus {
+    border: 2px #000000 solid;
+}
+
+.form-container #filter-form .button {
+    border: 1px solid black;
+    background: #999;
+}
+
+.form-container #filter-form .button:hover {
+    background-color:#474958;
+    color: #ffff;
+}
+
+.photos-container .photo-container {
+    background-color: #396461;
+}
