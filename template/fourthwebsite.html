@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head id="head">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fourth Website</title>
     <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/default.css" />
-    <link rel="stylesheet" href="/styles/fourthwebsite/fourthwebsite.css" />
+    <link rel="stylesheet" href="/styles/fourthwebsite/fourthwebsite.css">
+    <!--Script imports style based on time-->
     <script src="/js/fourthwebsite/fourthwebsite.js" type="text/javascript"></script>
 </head>
 
@@ -156,12 +157,28 @@
                         </tr>
                         <tr>
                             <td>
-                                <label for="">Data: </label>
-                                <input type="date" name="data" id="" />
+                                <div class="filter-option">
+                                    <label for="">Date: </label>
+                                    <input type="date" name="data" id="" />
+                                </div>
                             </td>
                             <td>
-                                <label for="">Ngjyra: </label>
-                                <input type="color" name="ngjyra" id="" />
+                                <div class="filter-option">
+                                    <label for="">Color: </label>
+                                    <input type="color" name="ngjyra" id="" />
+                                </div>
+                            </td>
+                            <td>
+                                <div class="filter-option">
+                                    <label for="categories">Choose Category:</label>
+                                    <input list="categories" id="category" name="category">
+                                    <datalist id="categories">
+                                        <option value="nature">Nature</option>
+                                        <option value="animals">Animals</option>
+                                        <option value="extremeSports">Extreme Sports</option>
+                                        <option value="travel">Travel</option>
+                                    </datalist>
+                                </div>
                             </td>
                         </tr>
                     </table>
@@ -258,10 +275,10 @@
                     </p>
                     <br />
                     <em>Tel:</em>
-                    <p>xxxx xxxxxxx</p>
+                    <p><a href="tel:+383 49 123456" class="tel">+383 49 123456</a></p>
                     <br />
                     <em>Fax:</em>
-                    <p>xxxx xxxxxxx</p>
+                    <p><a href="tel:+383 49 654321" class="tel">+383 49 654321</a></p>
                     <br />
                     <em>Email:</em>
                     <p>

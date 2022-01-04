@@ -5,9 +5,9 @@ header {
 details {
    display: flex;
 }
+
 .container .form-container {
    padding-top: 20px;
-   background-color: #5f5f5f;
    padding-bottom: 30px;
    border-radius: 10px;
    -webkit-border-radius: 10px;
@@ -29,7 +29,7 @@ details {
    margin-bottom: 20px;
 }
 
-.filter-container .filter-option {
+.filter-option {
    display: flex;
    flex-direction: column;
    width: 260px;
@@ -61,16 +61,13 @@ details {
 }
 
 .filter-container .filter-option .input {
-   background-color: #5f5f5f;
    height: 50px;
    border-radius: 10px;
    padding: 10px;
-   border: 1px solid white;
 }
 
 .filter-container .filter-option .input:focus {
    outline: none;
-   border: 2px #5f8b86 solid;
 }
 
 .filter-container .filter-option .input:focus::placeholder {
@@ -109,18 +106,14 @@ details {
    margin: auto;
    width: 260px;
    height: 50px;
-   background: #999;
    border-radius: 10px;
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    -ms-border-radius: 10px;
    -o-border-radius: 10px;
-   border: 1px solid black;
 }
 
 .form-container #filter-form .button:hover {
-   background: #050505;
-   color: #ffff;
    transition: all ease-in-out 0.3s;
    -webkit-transition: all ease-in-out 0.3s;
    -moz-transition: all ease-in-out 0.3s;
@@ -139,7 +132,6 @@ details {
 .photos-container .photo-container {
    display: inline-flex;
    border-radius: 10px;
-   background-color: yellowgreen;
 }
 
 .photo-container figure {
