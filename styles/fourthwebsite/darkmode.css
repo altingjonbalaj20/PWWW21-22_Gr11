@@ -1,3 +1,7 @@
+body{
+    background-image: radial-gradient(#000 50%, #999 100%);
+}
+
 .container .form-container {
     background-color: #5f5f5f;
 }

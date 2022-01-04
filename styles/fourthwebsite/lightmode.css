@@ -1,5 +1,5 @@
 body{
-    background-color:  	#adadad;
+    background-image: linear-gradient(to bottom, #ccc3c3, #000000);
 }
 
 header .header-elements .elements {
@@ -56,7 +56,7 @@ header nav .menu ul li a:hover {
 }
 
 footer{
-    background-color: #adadad;
+    background-color: transparent;
 }
 
 .footer-title{
