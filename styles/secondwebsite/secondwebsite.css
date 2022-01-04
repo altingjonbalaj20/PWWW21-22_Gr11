@@ -1,3 +1,12 @@
+* {
+  color: #fff;
+}
+mark {
+  background-color: #fff;
+  color: #000;
+  padding-left: 3px;
+  padding-right: 3px;
+}
 .table1 {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -133,6 +142,56 @@ td {
   background: green;
   margin: -10px -10px 10px;
   padding: 4px 10px;
-  /* font-family: Helvetica; */
   font-size: 21px;
+}
+
+.lists {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lists > div p em strong {
+  font-size: 20px;
+  text-shadow: 3px 3px 3px #ffffff4f;
+}
+
+.reviews {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: stretch;
+}
+.reviews .review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #55608f;
+}
+.review-author {
+  height: 300px;
+}
+.review-author img {
+  object-fit: fill;
+  object-position: center;
+  height: 100%;
+  border-radius: 20px;
+}
+.review-content {
+  width: 500px;
+  padding: 20px;
+}
+.review-content article {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.review-content p {
+  color: #fff;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration-line: underline;
 }

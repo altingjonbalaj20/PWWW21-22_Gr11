@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/default.css" />
     <link rel="stylesheet" href="/styles/secondwebsite/secondwebsite.css" />
+    <link rel="stylesheet" href="/styles/secondwebsite/music.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
@@ -383,14 +389,16 @@
             ondrop="drop(event)"
             ondragover="allowDrop(event)"
           >
-            <h2>Todo</h2>
+            <h2><abbr title="Abbr">Todo</abbr></h2>
             <article
               class="card"
               draggable="true"
               ondragstart="drag(event)"
               data-id="1"
             >
-              <h3>Todo #1</h3>
+              <h3>
+                <address>Todo #1</address>
+              </h3>
             </article>
             <article
               class="card"
@@ -398,7 +406,9 @@
               ondragstart="drag(event)"
               data-id="2"
             >
-              <h3>Todo #2</h3>
+              <h3>
+                <address>Todo #1</address>
+              </h3>
             </article>
             <article
               class="card"
@@ -406,7 +416,9 @@
               ondragstart="drag(event)"
               data-id="3"
             >
-              <h3>Todo #3</h3>
+              <h3>
+                <address>Todo #1</address>
+              </h3>
             </article>
           </div>
           <div
@@ -414,7 +426,7 @@
             ondrop="drop(event)"
             ondragover="allowDrop(event)"
           >
-            <h2>In Progress</h2>
+            <h2><abbr title="Abbr">In Progress</abbr></h2>
             <article
               class="card"
               draggable="true"
@@ -445,7 +457,7 @@
             ondrop="drop(event)"
             ondragover="allowDrop(event)"
           >
-            <h2>Done</h2>
+            <h2><abbr title="Abbr">Done</abbr></h2>
             <article
               class="card"
               draggable="true"
@@ -470,6 +482,202 @@
             >
               <h3>Done #3</h3>
             </article>
+          </div>
+        </div>
+      </section>
+      <section class="lists">
+        <div>
+          <p>
+            <em
+              ><strong><mark>Ordered</mark> Lists</strong></em
+            >
+          </p>
+          <ol>
+            <li>Lista #1</li>
+            <li>Lista #2</li>
+            <li>Lista #3</li>
+            <li>Lista #4</li>
+            <li>Lista #5</li>
+            <li>Lista #6</li>
+          </ol>
+        </div>
+        <div>
+          <p>
+            <em
+              ><strong><mark>Unordered</mark> List</strong></em
+            >
+          </p>
+          <ul>
+            <li>Lista #1</li>
+            <li>Lista #2</li>
+            <li>Lista #3</li>
+            <li>Lista #4</li>
+            <li>Lista #5</li>
+            <li>Lista #6</li>
+          </ul>
+        </div>
+        <div>
+          <p>
+            <em
+              ><strong><mark>Nested</mark> List</strong></em
+            >
+          </p>
+          <ul>
+            <li>Lista #1</li>
+            <li>Lista #2</li>
+            <li>
+              Lista #3
+              <ul>
+                <li>Lista #3.1</li>
+                <li>
+                  Lista #3.2
+                  <ul>
+                    <li>Lista #3.2.1</li>
+                    <li>Lista #3.2.2</li>
+                    <li>Lista #3.2.3</li>
+                  </ul>
+                </li>
+                <li>Lista #3.3</li>
+              </ul>
+            </li>
+            <li>Lista #5</li>
+            <li>Lista #6</li>
+          </ul>
+        </div>
+        <div>
+          <p>
+            <em
+              ><strong><mark>Definition</mark> Lists</strong></em
+            >
+          </p>
+          <dl>
+            <dt>HTML</dt>
+            <dd>is a markup language</dd>
+            <dt>JavaScript</dt>
+            <dd>is a scripting language</dd>
+            <dt>CSS</dt>
+            <dd>is used for styling</dd>
+          </dl>
+        </div>
+      </section>
+      <section class="music">
+        <h1>Music Section</h1>
+        <div class="image-container">
+          <img
+            id="cover"
+            src="../styles/secondwebsite/img"
+            alt="Music Cover"
+            class="cover"
+          />
+        </div>
+        <div class="music-container">
+          <h4 class="music-info">Title</h4>
+          <div>
+            <span class="timer"></span>
+            <div class="progress-container">
+              <div class="progress"></div>
+            </div>
+            <span class="fullTime"></span>
+          </div>
+        </div>
+        <audio src="./resources/music/torna%20a%20casa.mp3" id="audio"></audio>
+        <div class="navigation">
+          <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+          </button>
+          <button id="play" class="action-btn action-btn-big">
+            <i class="fas fa-play"></i>
+          </button>
+          <button id="next" class="action-btn">
+            <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </section>
+      <section class="reviews">
+        <h1>Reviews</h1>
+        <div class="review">
+          <div class="review-author">
+            <img
+              src="https://image.freepik.com/free-photo/portrait-cheerful-attractive-young-woman-longsleeve-standing-with-arms-crossed-smiling_295783-39.jpg"
+              alt=""
+            />
+          </div>
+          <div class="review-content">
+            <article>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
+              quos odit recusandae exercitationem, sit dolores dolore rerum
+              provident sint, magni nihil eligendi totam, nemo modi a
+              voluptates. Minima, fugit suscipit!
+            </article>
+            <p>Albinis Rudaku</p>
+          </div>
+        </div>
+        <div class="review">
+          <div class="review-content">
+            <article>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
+              quos odit recusandae exercitationem, sit dolores dolore rerum
+              provident sint, magni nihil eligendi totam, nemo modi a
+              voluptates. Minima, fugit suscipit!
+            </article>
+            <p>Albinis Rudaku</p>
+          </div>
+          <div class="review-author">
+            <img
+              src="https://image.freepik.com/free-photo/portrait-cheerful-attractive-young-woman-longsleeve-standing-with-arms-crossed-smiling_295783-39.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="review">
+          <div class="review-author">
+            <img
+              src="https://image.freepik.com/free-photo/portrait-cheerful-attractive-young-woman-longsleeve-standing-with-arms-crossed-smiling_295783-39.jpg"
+              alt=""
+            />
+          </div>
+          <div class="review-content">
+            <article>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
+              quos odit recusandae exercitationem, sit dolores dolore rerum
+              provident sint, magni nihil eligendi totam, nemo modi a
+              voluptates. Minima, fugit suscipit!
+            </article>
+            <p>Albinis Rudaku</p>
+          </div>
+        </div>
+        <div class="review">
+          <div class="review-content">
+            <article>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
+              quos odit recusandae exercitationem, sit dolores dolore rerum
+              provident sint, magni nihil eligendi totam, nemo modi a
+              voluptates. Minima, fugit suscipit!
+            </article>
+            <p>Albinis Rudaku</p>
+          </div>
+          <div class="review-author">
+            <img
+              src="https://image.freepik.com/free-photo/portrait-cheerful-attractive-young-woman-longsleeve-standing-with-arms-crossed-smiling_295783-39.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="review">
+          <div class="review-author">
+            <img
+              src="https://image.freepik.com/free-photo/portrait-cheerful-attractive-young-woman-longsleeve-standing-with-arms-crossed-smiling_295783-39.jpg"
+              alt=""
+            />
+          </div>
+          <div class="review-content">
+            <article>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
+              quos odit recusandae exercitationem, sit dolores dolore rerum
+              provident sint, magni nihil eligendi totam, nemo modi a
+              voluptates. Minima, fugit suscipit!
+            </article>
+            <p>Albinis Rudaku</p>
           </div>
         </div>
       </section>
@@ -594,5 +802,6 @@
     </footer>
 
     <script src="../js/secondwebsite/drag-drop.js"></script>
+    <script src="../js/secondwebsite/music.js"></script>
   </body>
 </html>
