@@ -1,6 +1,6 @@
-let date = new Date();
-let head = document.getElementById("head");
-let light = date.getHours() >= 8 && date.getHours() <= 20;
+var date = new Date();
+var head = document.getElementById("head");
+var light = date.getHours() >= 8 && date.getHours() <= 20;
 
 if(light)
     head.innerHTML += "<link rel='stylesheet' href='\\styles\\fourthwebsite\\lightmode.css' />";
