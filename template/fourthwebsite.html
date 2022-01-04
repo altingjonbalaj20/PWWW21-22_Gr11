@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="fourthwebsite.mf">
 
 <head id="head">
     <meta charset="UTF-8" />
@@ -77,19 +77,19 @@
             <form action="http://www.randyconnolly.com/tests/process.php" method="post" id="filter-form">
                 <div class="filter-container">
                     <div class="filter-option">
-                        <label id="author-label" for="author" class="filter-name">Author</label>
+                        <label id="author-label" for="author" class="filter-name">Autori</label>
                         <input id="author" type="text" onblur="onBlur('author','author-label')"
                             onfocus="onFocus('author-label')" id="author" placeholder="Author" class="input input-text"
                             name="author" />
                     </div>
                     <div class="filter-option">
-                        <label id="address-label" for="address" class="filter-name">Address</label>
+                        <label id="address-label" for="address" class="filter-name">Adresa</label>
                         <input id="address" onblur="onBlur('address','address-label')"
                             onfocus="onFocus('address-label')" type="text" placeholder="Address"
                             class="input input-text" name="address" />
                     </div>
                     <div class="filter-option">
-                        <label id="name-label" for="name" class="filter-name">Name</label>
+                        <label id="name-label" for="name" class="filter-name">Emri</label>
                         <input id="name" type="text" maxlength="40" onblur="onBlur('name','name-label')"
                             onfocus="onFocus('name-label')" placeholder="Name" class="input input-text" name="name" />
                     </div>
@@ -100,7 +100,7 @@
                         <tr>
                             <td>
                                 <div class="check-options">
-                                    <label class="optionLabel" for="">Check Options:</label>
+                                    <label class="optionLabel" for="">Zgjedh:</label>
                                     <div class="check-option">
                                         <input type="checkbox" name="checkbox[]" value="checkbox1" id="" />
                                         <label for="">Checkbox1</label>
@@ -158,25 +158,26 @@
                         <tr>
                             <td>
                                 <div class="filter-option">
-                                    <label for="">Date: </label>
+                                    <label for="">Data: </label>
                                     <input type="date" name="data" id="" />
                                 </div>
                             </td>
                             <td>
                                 <div class="filter-option">
-                                    <label for="">Color: </label>
+                                    <label for="">Ngjyra: </label>
                                     <input type="color" name="ngjyra" id="" />
                                 </div>
                             </td>
                             <td>
                                 <div class="filter-option">
-                                    <label for="categories">Choose Category:</label>
+                                    <label for="categories">Zgjedh kategorin&#516;:</label>
                                     <input list="categories" id="category" name="category">
                                     <datalist id="categories">
-                                        <option value="nature">Nature</option>
-                                        <option value="animals">Animals</option>
-                                        <option value="extremeSports">Extreme Sports</option>
-                                        <option value="travel">Travel</option>
+                                        <option value="nature">Natyr&#516;</option>
+                                        <option value="animals">Kafsh&#516;</option>
+                                        <option value="extremeSports">Sporte Ekstreme</option>
+                                        <option value="travel">Udh&#516;time</option>
+                                        <option value=""></option>
                                     </datalist>
                                 </div>
                             </td>
